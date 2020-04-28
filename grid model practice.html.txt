@@ -1,0 +1,36 @@
+<DOCTYPE! html>
+
+<html>
+	<head>
+		<title> My Web Page </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style> 
+			.g1 {
+				background-color= springgreen;
+				display: grid;
+				padding: 20px;
+				grid-column-gap: 10px;
+				grid-row-gap: 5px;
+				grid-template-columns: 200px 200px auto;
+			}
+		</style>
+	<body>
+		<div class="g1"> 
+			<div>	1 </div>
+			<div>	2 </div>
+			<div>	3 </div>
+			<div>	4 </div>
+			<div>	5 </div>
+			<div>	6 </div>
+			<div>	7 </div>
+			<div>	8 </div>
+			<div>	9 </div>
+			<div>	10 </div>
+			<div>	11 </div>
+			<div>	12 </div>
+			<div>	13 </div>
+		</div>
+	</body>
+</html>
+			
+	

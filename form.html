@@ -2,14 +2,31 @@
 <html>
 	<head>
 		<title> My Webpage! </title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<style>
-			input[type=submit] {
-			          margin-left: 15px;
-			          font-family: Arial; 
-			          font-size:16px;
+			@media (min-width: 576px) {
+				#heading { 
+					font-size: 28px;
+				}
+			}
+			@media (max-width: 575px) {
+				#heading {
+					font-size: 22px;
+				}
+			}
+			button[type=submit] {
+					margin-left: 20px;
+					height: 35px;
+			}
+			input[type=reset], button[type=submit] {
+				margin-bottom: 10px;
+			}
+			input[type=reset] {
+				height: 35px;
+				width: 60px;
 			}
 			input, textarea {       
-			          background-color: #dbdae6;
+			          background-color: #f8f8f8;
 			          color: black;
 			}
 			label {
@@ -24,7 +41,6 @@
 			#heading {
 				 text-align: center;
 				 font-family: Times New Roman, Sans Serif;
-				 font-size: 28px;
 				 background-color: #4cb067;
 			}
 			form {
@@ -36,9 +52,9 @@
 		<div id="heading">Website Feedback form </div>
 		<form>
 			<div>
-				<label for="fname">Full name:</label><br>		
-				<input type="text" placeholder="First Name" name="name" required>
-				<input type="text" placeholder="Last Name" name="name" required> 
+			  	<label for="fname">Full name:</label><br>		
+			  	<input type="text" placeholder="First Name" name="name" required>
+			  	<input type="text" placeholder="Last Name" name="name" required> 
 			</div>
 			<div>
 				<label for="email">Email address:</label><br>
@@ -302,7 +318,7 @@
 				<label for="feedback"> Feedback: </label><br>
 				<textarea rows="4" cols="50" name="feedback" placeholder="Type in your feedback here." required></textarea>
 			</div>
-			<input type="submit" value="Submit"> 
+			<button type="submit" class="btn btn-primary"> Submit </button> 
 			<input type="reset" onclick="alert('Data will not be saved')">  
 		</form>
 	</body>
