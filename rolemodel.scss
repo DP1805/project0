@@ -1,0 +1,41 @@
+$font: Times New Roman;
+$color: olive;
+ .row > div {
+                padding: 5px;
+	font-size: 46px;
+	font-weight: bold;
+	color:teal;
+	text-align:center;
+	font-family: bankgothic lt bt, Sans Serif;
+}
+img {
+	max-width: 30%;
+	height: auto;
+}
+.intro {
+	color: $color;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	font-family: $font;
+}
+.bio > {
+        p {    
+	margin-left: 15px;
+	font-size: 14px;
+        }
+}
+.heading {
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	font-family: $font;
+	color:$color;		
+}
+.main {
+	font-weight: bold;
+}
+.links {
+	margin: 10px;
+	text-align: center;
+}

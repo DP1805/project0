@@ -1,0 +1,37 @@
+.row>div {
+	padding:5px;
+	font-size:46px;
+	font-weight:bold;
+	color:teal;
+	text-align:center;
+	font-family:bankgothic lt bt, Sans Serif;
+}
+img {
+	max-width:30%;
+	height:auto;
+}
+.intro {
+	color:olive;
+	font-size:28px;
+	font-weight:bold;
+	text-align:center;
+	font-family:Times New Roman;
+}
+.bio>p {
+	margin-left:15px;
+	font-size:14px;
+}
+.heading {
+	font-size:28px;
+	font-weight:bold;
+	text-align:center;
+	font-family:Times New Roman;
+	color:olive;
+}
+.main {
+	font-weight:bold;
+}
+.links {
+	margin:10px;
+	text-align:center;
+}
