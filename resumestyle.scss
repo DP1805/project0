@@ -1,0 +1,49 @@
+%alignment {
+	      text-align: center;
+}
+body {
+          background-color:white;
+}
+*::selection {
+	   color: white;
+  	   background-color: #1dd1bc;
+}
+#top {
+         color: midnightblue;
+         font-size: 36px;
+         font-family: Calibri, Sans Serif; 
+         font-weight: bold;
+}
+p {
+     @extend %alignment;
+}
+h3 {
+       @extend %alignment;
+}
+.bio {
+         font-family: Arial, Sans Serif;
+         font-size: 22px;
+         font-weight: bold;
+         margin-left: 1%;
+         color: purple;
+}
+ul {
+     font-family: Times New Roman, Sans Serif;
+     font-size: 18px;
+     color: midnightblue;
+     margin-right: 2%;
+}
+table {
+          border: 2px solid black;
+          border-collapse: collapse;
+          width:60%; margin-left:20%; margin-right:20%;
+}
+th, td { 
+          border: 1px solid black;
+          @extend %alignment;
+          padding: 5px;
+}
+th {
+      background-color: lightgray;
+      color: black;
+}
